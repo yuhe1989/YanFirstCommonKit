@@ -1,0 +1,11 @@
+ARCHS = $(ARCHS_STANDARD)
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AMap2DMap" "${PODS_ROOT}/AMapFoundation" "${PODS_ROOT}/AMapLocation" "${PODS_ROOT}/AMapSearch"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/MAZeroingWeakRef" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/XMLReader" "${PODS_ROOT}/Headers/Public/YYModel" "${PODS_ROOT}/Headers/Public/YanFirstCommonKit"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FMDB" "${PODS_CONFIGURATION_BUILD_DIR}/MAZeroingWeakRef" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/XMLReader" "${PODS_CONFIGURATION_BUILD_DIR}/YYModel" "${PODS_CONFIGURATION_BUILD_DIR}/YanFirstCommonKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"FMDB" -l"MAZeroingWeakRef" -l"Masonry" -l"XMLReader" -l"YYModel" -l"YanFirstCommonKit" -l"c++" -l"sqlite3" -l"z" -framework "AMapFoundationKit" -framework "AMapLocationKit" -framework "AMapSearchKit" -framework "CoreFoundation" -framework "CoreLocation" -framework "CoreTelephony" -framework "ExternalAccessory" -framework "Foundation" -framework "MAMapKit" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

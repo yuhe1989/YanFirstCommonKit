@@ -1,0 +1,53 @@
+{
+  "name": "YanFirstCommonKit",
+  "version": "0.1.0",
+  "summary": "A short description of YanFirstCommonKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yuhe1989/YanFirstCommonKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yuhe1989": "yan1989.code@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/yuhe1989/YanFirstCommonKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YanFirstCommonKit/Classes/**/*",
+  "resource_bundles": {
+    "YanFirstCommonKit": [
+      "YanFirstCommonKit/Assets/*.xml"
+    ]
+  },
+  "dependencies": {
+    "FMDB": [
+
+    ],
+    "XMLReader": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "MAZeroingWeakRef": [
+
+    ],
+    "AMap2DMap": [
+
+    ],
+    "AMapLocation": [
+
+    ],
+    "AMapSearch": [
+
+    ]
+  }
+}

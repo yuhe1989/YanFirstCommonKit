@@ -32,11 +32,19 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'YanFirstCommonKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'YanFirstCommonKit' => ['YanFirstCommonKit/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'YanFirstCommonKit' => ['YanFirstCommonKit/Assets/*.xml']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'FMDB'
+   s.dependency 'XMLReader'
+   s.dependency 'Masonry'
+   s.dependency 'YYModel'
+   s.dependency 'MAZeroingWeakRef'
+   s.dependency 'AMap2DMap'
+   s.dependency 'AMapLocation'
+   s.dependency 'AMapSearch'
 end

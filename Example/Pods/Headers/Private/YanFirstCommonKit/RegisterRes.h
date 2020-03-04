@@ -1,0 +1,1 @@
+../../../../../YanFirstCommonKit/Classes/Third/ypackage/RegisterRes.h

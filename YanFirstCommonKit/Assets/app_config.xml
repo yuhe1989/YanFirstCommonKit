@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 外网 -->
+<!--139  12316 c7bb7f01f5df4282b6d88f3068bfe0de -->
+<!--139 2a7dab78f9904083932a6d7329bc393e -->
+<!-- 139 union 874bb570367147ef9c426bc6f39a14a0-->
+<!-- 139 bishan 43da8d831aea4e67a12d2b0e157768d3-->
+
+
+<!--164 8b158de6d8fb4ebe8e5a9da07af99b73 -->
+<!--164 union 0c194806ddf54be5a2761bc724b21e4c -->
+<!--164 12316 15c921a585d24c34a43ec339f239e05f   2AF45BDE-5AC9-4C31-BFAE-3B7855E88F35-->
+<!--     //联盟
+ //0c194806ddf54be5a2761bc724b21e4c
+ //彩通农旗
+ //8b158de6d8fb4ebe8e5a9da07af99b73  2e476574f41946449e9cc1c09900e2ed    15c921a585d24c34a43ec339f239e05f  c2d68e0c-0635-4120-97ad 1.16-e869ab88d6ce    639ecc0012a54553b91fa03beec2c0da   7e8330d36f474c9b811d516bd5a12ca8 8704a552fa0a4de3956952579d98a490-->
+<!--111c11d8-a451-4369-8a99-8bf161c2dc78-->
+
+
+
+<AppConfig>
+    <AppID>f371d55e97d74f4fb8ba80f9de4f1d32</AppID>
+    <DepartmentId>111c11d8-a451-4369-8a99-8bf161c2dc78</DepartmentId>
+    <PlatCode>chongqingxumu</PlatCode>
+    <AppVersion>5.00</AppVersion>
+    <DepartmentName>璧山区养殖业技术服务中心</DepartmentName>
+    <AppNameKey>jxsgxjt</AppNameKey>
+    <WXAppId></WXAppId>
+    <WXAppSecret></WXAppSecret>
+    <BaiduAppKey>f25cbf79c8f65dc0ee12caa043b80ebf</BaiduAppKey>
+    <ThemeConfig>
+        <Normal>
+            <NavTextColor>#FFFFFF</NavTextColor>
+            <NavBackColor>#87BE1A</NavBackColor>
+            <NavButtonTextColor>#FFFFFF</NavButtonTextColor>
+            <TabbarBackColor>#F8F8F8</TabbarBackColor>
+            <TabbarUnSelectTextColor>#999999</TabbarUnSelectTextColor>
+            <TabbarSelectTextColor>#F97D02</TabbarSelectTextColor>
+            <PageBackColor>#F0F0F0</PageBackColor>
+            <ItemBackColor>#FFFFFF</ItemBackColor>
+            <ItemTitleColor>#333333</ItemTitleColor>
+            <ItemSubTitleColor>#999999</ItemSubTitleColor>
+            <ButtonBackColor>#77B43C</ButtonBackColor>
+            <ButtonTextColor>#FFFFFF</ButtonTextColor>
+            <TextViewBackColor>#FFFFFF</TextViewBackColor>
+            <TextViewTextColor>#333333</TextViewTextColor>
+            <TextViewPlaceholderColor>#999999</TextViewPlaceholderColor>
+            <SubItemBackColor>#F6F7F6</SubItemBackColor>
+            <SubItemTextColor>#333333</SubItemTextColor>
+            <LabelTextColor>#333333</LabelTextColor>
+        </Normal>
+    </ThemeConfig>
+</AppConfig>
+
+<!--
+<AppConfig>
+    <AppID>b9226aab4e43495fbf7a13640941389f</AppID>
+    <DepartmentId>56224422da704d82adff935b5628c6d4</DepartmentId>
+    <AppVersion>1.09</AppVersion>
+    <DepartmentName>规模养殖场平台</DepartmentName>
+    <AppNameKey>gmyzcpt</AppNameKey>
+    <WXAppId></WXAppId>
+    <WXAppSecret></WXAppSecret>
+    <BaiduAppKey>f25cbf79c8f65dc0ee12caa043b80ebf</BaiduAppKey>
+    <PlatCode>plat_gmyzcpt</PlatCode>
+</AppConfig>
+ -->

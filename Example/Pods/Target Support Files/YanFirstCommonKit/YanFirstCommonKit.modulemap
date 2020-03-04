@@ -1,0 +1,6 @@
+framework module YanFirstCommonKit {
+  umbrella header "YanFirstCommonKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

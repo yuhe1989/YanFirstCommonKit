@@ -1,0 +1,59 @@
+PODS:
+  - AMap2DMap (5.6.1):
+    - AMapFoundation (~> 1.4)
+  - AMapFoundation (1.5.8)
+  - AMapLocation (2.6.3):
+    - AMapFoundation (~> 1.4)
+  - AMapSearch (7.1.0):
+    - AMapFoundation (~> 1.4)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Masonry (1.1.0)
+  - MAZeroingWeakRef (1.0)
+  - XMLReader (0.0.2)
+  - YanFirstCommonKit (0.1.0):
+    - AMap2DMap
+    - AMapLocation
+    - AMapSearch
+    - FMDB
+    - Masonry
+    - MAZeroingWeakRef
+    - XMLReader
+    - YYModel
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - YanFirstCommonKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AMap2DMap
+    - AMapFoundation
+    - AMapLocation
+    - AMapSearch
+    - FMDB
+    - Masonry
+    - MAZeroingWeakRef
+    - XMLReader
+    - YYModel
+
+EXTERNAL SOURCES:
+  YanFirstCommonKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMap2DMap: cac76bc057de18a1641f34df6b50bf5bc6b23571
+  AMapFoundation: 26a6bf660717b4c8f290dd5383e26047a75e5611
+  AMapLocation: dc2c4fde95d72087d73934338160fadc72104bb7
+  AMapSearch: 6bd6d361c5eb00110e0bffa4acf88b7bb9f7e059
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MAZeroingWeakRef: 8f128c1adc90e0581d4a212c6568a8e0ebba6cf1
+  XMLReader: c7e54b707c368e2fa545d8313276b4de13a36ff5
+  YanFirstCommonKit: 177426890cc6b4bf9edea107fc20d8184aa37def
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 051b0f949fbbdf38738c032c16fa569fbdb30e7a
+
+COCOAPODS: 1.8.4
